@@ -13,7 +13,8 @@ import java.util.Map;
  * @Description: 通用api的封装
  */
 public class ApiApplication extends Application {
-    public static final boolean bOpenLog = false;
+    //是否开启log
+    public static boolean aOpenLog = false;
     //huander对象
     private static Handler mHandler;
     //UI线程的id

@@ -13,7 +13,7 @@ public class LogUtil {
 	// 其他日志TAG
 	public static final String TAG = "yxck";
 	//是否开启log
-	public static final boolean bOpenLog = ApiApplication.bOpenLog;
+	public static final boolean bOpenLog = ApiApplication.aOpenLog;
 
 	public static int d(String msg) {
 		if (bOpenLog) {
