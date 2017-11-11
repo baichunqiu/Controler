@@ -11,7 +11,7 @@ import com.bcq.ui.controler.base.api.ApiApplication;
  */
 public class LogUtil {
 	// 其他日志TAG
-	public static final String TAG = "yxck";
+	public static final String TAG = "baseTag";
 	//是否开启log
 	public static final boolean bOpenLog = ApiApplication.aOpenLog;
 
